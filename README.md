@@ -1,2 +1,2 @@
 # realestate
-you can clone and yarn add or npm install dependency to see what realestate app looks like
+clone and run yarn add or npm install to install node_modules to see what realestate app looks like
