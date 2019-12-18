@@ -1,7 +1,5 @@
 import React from 'react';
 import './styles.css';
-import cloudinary from 'cloudinary-core';
-const cloudinaryCore = new cloudinary.Cloudinary({ cloud_name: 'healthie' });
 class Cards extends React.Component {
     constructor(props) {
         super(props)
@@ -46,8 +44,6 @@ class Cards extends React.Component {
         )
     }
 }
-
-const backgroundImage = <img src={cloudinaryCore.url('https://res.cloudinary.com/healthie/image/upload/v1576644270/RealEstate/home_xyjj4w.jpg')} />
 const Card = (props) => {
     return (
         <div style={{ margin: '10px' }}>

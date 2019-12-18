@@ -6,7 +6,7 @@ import './styles.css'
 
 const LandingPage = (props) => {
     return (
-        <div className="main-con">
+        <div style={{display:'flex'}} className="main-con">
             <div className="map">
             </div>
             <div className="components-con">
