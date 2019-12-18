@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#header-con{
+height:50px;
+display:flex;
+align-items: center;
+width: 95%;
+margin: 0 auto;
+}
+.nav {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    width:80%;
+    justify-self: right;
+}
+li {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.signup{
+    color:rgba(13, 151, 94, 0.836) ;
+}
+.login{
+    background-color:rgba(13, 151, 94, 0.836) ;
+    color: #fff;
+    padding:5px 40px;
+    border-radius: 4px;
+}
