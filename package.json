@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack-dev-server --open --hot --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack",
+    "start": "serve -s dist"
   },
   "keywords": [],
   "author": "",
